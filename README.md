@@ -6,6 +6,9 @@ A small project which connects to Unsplash to fetch images.
 - Semantic UI
 - Unsplash Api
 
+![Overview gif](https://raw.githubusercontent.com/kevinrodriguez-io/react_pics/master/public/overview.gif)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
