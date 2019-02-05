@@ -1,3 +1,11 @@
+# React Pics
+
+A small project which connects to Unsplash to fetch images.
+
+- React
+- Semantic UI
+- Unsplash Api
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
