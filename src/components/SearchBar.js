@@ -5,10 +5,6 @@ export default class SearchBar extends Component {
   state = { term: '' };
   searchIconRef = React.createRef();
 
-  constructor(props) {
-    super(props);
-  }
-
   onFormSubmit = (event) => {
     event.preventDefault();
     this.props.onSubmit(this.state.term);
@@ -28,7 +24,6 @@ export default class SearchBar extends Component {
               <input
                 type="text"
                 placeholder="Try typing a search term and hit enter"
-                type="text"
                 value={this.state.term}
                 onChange={this.onInputChanged}
               />
